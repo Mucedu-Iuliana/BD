@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0838B09C-40CF-7DEC-70EC-FF6FBAC7D0D4" containerWithKeyObject="0479B2B3-3ADC-504B-811D-40CF59CE2F83" localFKIndex="00AC834E-8927-0C87-BB92-3669AF817CAF" name="Relation_10_Fapte_FK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>AFE0D00E-F2AC-4E2B-4EED-40C7BEFC28CB</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<referredTableLongName>Fapte</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D1B4E55-DF2D-DE67-408C-E7794F96853D</referredTableID>
+<keyObject>413E1DC6-E649-CCB2-E893-220C8C448BD1</keyObject>
+<referredKeyID>413E1DC6-E649-CCB2-E893-220C8C448BD1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_fapta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

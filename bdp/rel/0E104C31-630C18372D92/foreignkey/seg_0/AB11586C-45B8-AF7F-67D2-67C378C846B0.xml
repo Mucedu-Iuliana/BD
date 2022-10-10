@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AB11586C-45B8-AF7F-67D2-67C378C846B0" containerWithKeyObject="C3C7803B-2358-B857-8CDB-18300AD42440" localFKIndex="6E918A17-18E0-C556-2743-1A255EC81316" name="Detinuti_celule_Celule_FK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>BE516D1A-EBBE-4C37-5D1A-064AC1F32E03</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<referredTableLongName>Celule</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DCF38FA-BA7D-BB03-B7B0-F403978E1708</referredTableID>
+<keyObject>98AB4F9A-F66B-F961-76BE-B73CED220F16</keyObject>
+<referredKeyID>98AB4F9A-F66B-F961-76BE-B73CED220F16</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_celula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

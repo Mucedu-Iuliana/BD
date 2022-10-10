@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F654B1AB-8241-9EF5-1599-6574BB025EB0" name="Detalii_Angajat">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>DDCFA71F-6C0E-5A99-8808-07394828A514</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="adresa_angajat" id="9FC192B7-52BD-0D6A-8378-BB1499331F16">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>FCD72BA2-5BB0-6711-A40D-0A53D2D5D2C3</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon_angajat" id="6CDAC8B4-FAF0-F5FA-CD0C-83A9F999F8D1">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>5E1B038A-434D-1E23-C32B-14FCC1ED4BC4</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<constraintName>Detalii_telefon_angajat_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like ( telefon_angajat, &apos;07\d{8}&apos; )"/>
+</checkConstraint>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_angajat" id="929768D1-F4A6-772F-52CA-598C8B49AB67">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>0E5083A3-AC46-CA61-69F9-336CA306BF74</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<constraintName>Detalii_email_angajat_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="REGEXP_LIKE ( email_angajat,  &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos; )"/>
+</checkConstraint>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Angajati_id_angajat" id="4D413E54-EFCE-4A5C-FED1-6BF31CCAC0ED">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>BA204FEA-0A76-0879-C9DC-3F730447C99B</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80077996-FD6F-8479-1604-13264BB4A1E9" referredColumn="EF501E6B-1688-B940-4746-3BA2CED7A71F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="697949E6-B243-5460-4408-5787EE241AD6" name="Detalii_Angajat__IDX">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>30F66B79-C98A-E2A2-E02C-F062673D80EB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4D413E54-EFCE-4A5C-FED1-6BF31CCAC0ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F04AED3C-9F04-41A2-EEFC-CD1CC0E6E427" name="Detalii_Angajat_Angajati_FK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>30F66B79-C98A-E2A2-E02C-F062673D80EB</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D413E54-EFCE-4A5C-FED1-6BF31CCAC0ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

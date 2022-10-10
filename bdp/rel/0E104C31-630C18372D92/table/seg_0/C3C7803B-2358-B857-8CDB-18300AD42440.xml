@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3C7803B-2358-B857-8CDB-18300AD42440" name="Detinuti_celule">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>5A68582F-40FF-7501-B454-6B569033202A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Celule_id_celula" id="D995EF20-ABA8-0425-B032-41BA541E8962">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>93BE9983-16C9-3AA9-D95A-521265ECCEA2</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB11586C-45B8-AF7F-67D2-67C378C846B0" referredColumn="7B6294F8-B932-6C90-E8E0-27184313343A"/>
+</associations>
+</Column>
+<Column name="data_inceput" id="06BB3903-7AB7-3855-23D3-7A649A2FE3B1">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>2CF3FCC7-DA40-4098-EBDD-F690157F3D77</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_sfarsit" id="BFE90824-9FFA-178E-8D67-3C31A2068121">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>827394B1-2C68-3F8D-9C2A-ADFA9CC86780</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Detinuti_id_detinut" id="BEE65FD1-83F9-EF4C-1E34-C6DD8D69AE54">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 05:04:36 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F25A9BBC-4409-769C-9649-66FC2DAB2BAD" referredColumn="2A1C0C02-56E7-FD28-84B6-A00CD98A01C1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E918A17-18E0-C556-2743-1A255EC81316" name="Detinuti_celule_Celule_FK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>BE516D1A-EBBE-4C37-5D1A-064AC1F32E03</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D995EF20-ABA8-0425-B032-41BA541E8962"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B94FF85A-462E-C737-6E98-CC925391316A" name="Detinuti_celule_Detinuti_FK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>4AE584DF-5C14-E492-7417-4458C3CF22AD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEE65FD1-83F9-EF4C-1E34-C6DD8D69AE54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A68582F-40FF-7501-B454-6B569033202A" name="Detinuti celule">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>48216B3B-04B3-4E1B-9BF0-DA592EB9F6EC</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Celule id celula" id="93BE9983-16C9-3AA9-D95A-521265ECCEA2">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>BE516D1A-EBBE-4C37-5D1A-064AC1F32E03</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<referedAttribute>7FC95987-8061-2EA5-95C3-A2EE8A882792</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data inceput" id="2CF3FCC7-DA40-4098-EBDD-F690157F3D77">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>AB6D97B3-854F-41A1-8F96-8DAF97150CE9</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data sfarsit" id="827394B1-2C68-3F8D-9C2A-ADFA9CC86780">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>EE1C0609-E3FC-876F-F585-726DBD53CD0D</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Detinuti id detinut" id="A82CBF48-9AFB-556F-E6C9-F0F4DCF04A45">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 16:48:45 UTC</createdTime>
+<generatorID>4AE584DF-5C14-E492-7417-4458C3CF22AD</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<referedAttribute>D5F8DA7F-DB12-0015-13A6-7021E5BE715A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

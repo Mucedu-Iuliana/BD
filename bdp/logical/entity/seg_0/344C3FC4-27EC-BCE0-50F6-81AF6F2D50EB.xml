@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="344C3FC4-27EC-BCE0-50F6-81AF6F2D50EB" name="Celule">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:28 UTC</createdTime>
+<generatorID>D4E529EB-BDE9-C926-DCA5-001A961B0010</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id celula" id="7FC95987-8061-2EA5-95C3-A2EE8A882792">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:28 UTC</createdTime>
+<generatorID>F43AFDB9-4CB1-F77D-9F08-C4B78AC18256</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="capacitate" id="C1A409AB-FDE8-13E0-08A8-41EC19052994">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>E19364CF-5634-9E8E-6FE1-AD91A67D1D55</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="etaj" id="E99AD9C0-76F9-2FCE-1D69-12A84A1A612A">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>756FC977-A96F-5FA9-4C76-3020998F0EE7</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="896665D0-52D5-66A7-34DD-A6CA11A3FE5F" name="Celule PK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>5E3741B5-948B-5DCB-0653-C45022BA243A</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FC95987-8061-2EA5-95C3-A2EE8A882792</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DA31643-5674-2137-B884-E952341F0720" name="Fapte">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>36FBB85F-9394-F05C-8C7B-1B45030DDE0C</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id fapta" id="3C8E8194-E9ED-2E73-B6EC-E8C040954929">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>93C80D28-5257-4D04-1B86-AA4D47E32001</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>16 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="66FEABF4-7E2C-A67B-E060-59A58F717516">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>6B28C896-467A-E2FC-473D-ED5E8FB51D17</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>16 BYTE</dataTypeSize>
+<ownDataTypeParameters>16 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ani" id="490560BE-C368-86AC-E220-34CD8D1B6D43">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>01102F95-75B7-10CE-7478-5B8B97CC2BA6</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7B58892-8020-EE0F-5E35-740F4452C0B3" name="Fapte_PK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>FA908D19-060C-FAE1-366B-450ECAEC3B34</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C8E8194-E9ED-2E73-B6EC-E8C040954929</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

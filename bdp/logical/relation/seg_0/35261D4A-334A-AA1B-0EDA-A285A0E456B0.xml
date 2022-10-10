@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ture Angajati FK" directorySegmentName="seg_0" id="35261D4A-334A-AA1B-0EDA-A285A0E456B0">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:46:57 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<sourcePk>649EF6E6-B646-D76C-B923-54534BDB9A08</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>lucreaza in</nameOnSource>
+<nameOnTarget>sunt ale</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B0FC7B4-D461-342C-EA4C-1D53BDAA35BA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1F9E58D1-AE38-02F1-F39D-E9E2424EF6C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

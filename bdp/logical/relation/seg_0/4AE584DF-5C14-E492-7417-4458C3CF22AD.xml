@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Detinuti_celule_Detinuti_FK" directorySegmentName="seg_0" id="4AE584DF-5C14-E492-7417-4458C3CF22AD">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-14 06:55:29 UTC</createdTime>
+<generatorID>2EB47D29-2A3D-90F3-78E7-E9F25423E5CF</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<sourcePk>F7758AEE-D88E-91F8-BDB8-46DBFF3FFA0C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>stau in</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F8ED973-C00F-05B7-8107-9953DE2258D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5A68582F-40FF-7501-B454-6B569033202A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

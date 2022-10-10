@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fise Detinuti FK" directorySegmentName="seg_0" id="A4FC6E58-5837-40F4-12C3-C6C07DAF9855">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:48:54 UTC</createdTime>
+<ownerDesignName>bdp</ownerDesignName>
+<engineerTo>
+<item key="0E104C31-34E5-0F25-3551-630C18372D92" value="true"/>
+</engineerTo>
+<sourcePk>F7758AEE-D88E-91F8-BDB8-46DBFF3FFA0C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>au</nameOnSource>
+<nameOnTarget>sunt ale</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F8ED973-C00F-05B7-8107-9953DE2258D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0F57F09A-31CF-771C-F599-C16C380F45E9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

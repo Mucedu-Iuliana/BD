@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28E13EB8-376C-953D-CD34-91C4405A91CE" name="Ture">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>1F9E58D1-AE38-02F1-F39D-E9E2424EF6C7</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tura_angajat" id="91E39714-85FA-55B0-8770-FBCAB214810D">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>DD2E2BD8-7E66-F983-826B-85170937E5E2</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_tura" id="15C69B58-CF3F-7E23-6476-5605480DCD6E">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>17C19984-1064-0B3E-52E0-FF29729B5CD9</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Angajati_id_angajat" id="4F284E3B-29E2-219B-F6C9-4A4E7A318E58">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>EF65667C-FAD2-21D0-9DF1-27CE503076BF</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6ECB5385-6170-8E4E-AB69-10B49ABE9E32" referredColumn="EF501E6B-1688-B940-4746-3BA2CED7A71F"/>
+</associations>
+</Column>
+<Column name="Celule_id_celula" id="43A8A968-2F7A-396D-C208-22CC63C00D62">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>155A223F-D101-790F-F0A1-BFF6A5856231</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>16 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D01E97E0-A6D7-DFCC-50D1-15468F229035" referredColumn="7B6294F8-B932-6C90-E8E0-27184313343A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31C68C73-3B8D-DD04-3315-3B55DC14533A" name="Ture_PK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>DDB28CE1-51FA-8A48-1A43-C1AFE8726D53</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91E39714-85FA-55B0-8770-FBCAB214810D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D0B5F25-8814-DE78-4B0C-B9C3ECED87CD" name="Ture_Angajati_FK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>35261D4A-334A-AA1B-0EDA-A285A0E456B0</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F284E3B-29E2-219B-F6C9-4A4E7A318E58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="31602423-7127-49DE-E165-94F537F12C08" name="Ture_Celule_FK">
+<createdBy>georg</createdBy>
+<createdTime>2020-12-17 04:53:53 UTC</createdTime>
+<generatorID>4B208C02-94A4-FBD0-0102-DE7A84D8CE4F</generatorID>
+<ownerDesignName>bdp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43A8A968-2F7A-396D-C208-22CC63C00D62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
